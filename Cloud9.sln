@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35424.110 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Riverside.Cloud9.Interop", "Interop\Riverside.Cloud9.Interop.pyproj", "{AB0E4477-2630-4C08-92AE-B0B94D37344F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riverside.Cloud9", "Cloud9\Riverside.Cloud9.csproj", "{63F81C5F-B394-4758-9E4B-1C6D122EF3A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0E4477-2630-4C08-92AE-B0B94D37344F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0E4477-2630-4C08-92AE-B0B94D37344F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F81C5F-B394-4758-9E4B-1C6D122EF3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F81C5F-B394-4758-9E4B-1C6D122EF3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F81C5F-B394-4758-9E4B-1C6D122EF3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F81C5F-B394-4758-9E4B-1C6D122EF3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
