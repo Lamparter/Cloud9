@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Riverside.Cloud9
 {
@@ -23,8 +24,8 @@ namespace Riverside.Cloud9
 
         Dictionary<string, string> ModelAliases { get; }
 
-        void GenerateText(object cls, string model, List<string> messages, string? proxy = null, int? seed = null, string? size = "1:1");
-        void GenerateImage(object cls, string model, List<string> messages, string? proxy = null, int? seed = null, string? size = "1:1");
+        Task<string> GenerateText(object cls, string model, List<string> messages, string? proxy = null, int? seed = null, string? size = "1:1");
+        Task<string> GenerateImage(object cls, string model, List<string> messages, string? proxy = null, int? seed = null, string? size = "1:1");
         string FilterContent(object cls, string partResponse);
     }
 }
